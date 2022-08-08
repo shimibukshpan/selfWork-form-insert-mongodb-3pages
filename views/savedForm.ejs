@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<%- include('./templates/headerBootstrap')-%>
+</head>
+<body>
+<div class="container">
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="/images/ww.PNG" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">thanks!!</h5>
+    <p class="card-text"><%= name %> <%= lastname %></p>
+
+    <a href="http://localhost:3000/form" class="btn btn-primary">Go back to form</a>
+  </div>
+</div>
+</div>
+
+
+    <%- include('./templates/footerBootstrap')-%>
+</body>
+</html>
